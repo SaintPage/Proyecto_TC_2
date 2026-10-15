@@ -1,0 +1,16 @@
+# Gramatica de ejemplo del Proyecto 2 (frases simples en ingles)
+# Formato: A -> simbolos | alternativa ; "e" representa epsilon
+# El simbolo inicial es el lado izquierdo de la primera regla.
+S -> NP VP
+VP -> VP PP
+VP -> V NP
+VP -> cooks | drinks | eats | cuts
+PP -> P NP
+NP -> Det N
+NP -> he | she
+V -> cooks | drinks | eats | cuts
+P -> in | with
+N -> cat | dog
+N -> beer | cake | juice | meat | soup
+N -> fork | knife | oven | spoon
+Det -> a | the

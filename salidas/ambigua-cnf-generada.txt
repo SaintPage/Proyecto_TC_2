@@ -1,0 +1,8 @@
+E -> E C1 | E C2 | T_lpar C3 | id
+T_mas -> +
+T_por -> *
+T_lpar -> (
+T_rpar -> )
+C1 -> T_mas E
+C2 -> T_por E
+C3 -> E T_rpar

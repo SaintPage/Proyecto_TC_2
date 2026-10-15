@@ -1,0 +1,2 @@
+# Gramatica ambigua clasica (sin precedencia): sirve para ver el conteo de arboles
+E -> E + E | E * E | ( E ) | id

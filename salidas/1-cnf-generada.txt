@@ -1,0 +1,12 @@
+E -> T X | F Y | T_lpar C1 | id
+X -> T_mas C2 | T_mas T
+T -> F Y | T_lpar C1 | id
+Y -> T_por C3 | T_por F
+F -> T_lpar C1 | id
+T_lpar -> (
+T_rpar -> )
+T_mas -> +
+T_por -> *
+C1 -> E T_rpar
+C2 -> T X
+C3 -> F Y
